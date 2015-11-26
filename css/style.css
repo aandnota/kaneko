@@ -1,0 +1,149 @@
+body{
+	font-family: "Source Sans Pro", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav#header{
+	width: 100%;
+	height: 42vw;
+	background-image: url("../imgs/b-img-ph.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+nav#header>div{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 3rem;
+}
+
+#title-head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li#title-text>a{
+	color: #000;
+	font-size: 3rem;
+	font-family: "Josefin Sans", sans-serif;
+	letter-spacing: 3rem;
+}
+
+li#title-text{
+	display: flex;
+	align-items: center;
+}
+
+#title-head>li>h2{
+	font-weight: 300;
+	font-size: 4rem;
+}
+
+#title-sh{
+	font-size: .5rem;
+	font-weight: 300;
+	letter-spacing: .75rem;
+	display: inline;
+	font-family: "Josefin Sans", sans-serif;
+	text-align: center;
+}
+
+#title-sh h2{
+	padding-bottom: 0;
+	margin: 0;
+}
+
+#camp-links{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 5rem;
+}
+
+#camp-links a{
+	text-decoration: none;
+	color: #000;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 300;
+	font-size: 1.75rem;
+	padding: .25rem;
+}
+
+#camp-links a:hover{
+	color: #fff;
+	background-color: #FA6767;
+}
+
+#camp-links li{
+	margin: 1rem 0;
+}
+
+.box{
+	width: 100%;
+	height: 50vw;
+	display: flex;
+}
+
+.box>div{
+	width: 50vw;
+	height: 50vw;
+}
+
+.desc{
+	width: 80%;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.desc>h2{
+	font-size: 3rem;
+	margin-bottom: .25rem;
+}
+
+.desc>p{
+	margin-top: .25rem;
+}
+
+.box-desc-3d{
+	background-color: #FA6767;
+	background-image: url("../imgs/kaneko-logo-tl.png");
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-img-3d{
+	background-image: url("../imgs/3dcamp-1.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+.box-desc-vg{
+	background-color: #74B2FB;
+	background-image: url("../imgs/kaneko-logo-br.png");
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-img-vg{
+	background-image: url("../imgs/vgcamp-1.jpg");
+	background-size: cover;
+	background-position: center center;
+}
