@@ -101,6 +101,10 @@ li#title-text{
 	height: 50vw;
 }
 
+.box:last-child{
+	display: inline;
+}
+
 .desc{
 	width: 80%;
 	margin: 0 auto;
@@ -144,6 +148,91 @@ li#title-text{
 
 .box-img-vg{
 	background-image: url("../imgs/vgcamp-1.jpg");
-	background-size: cover;
-	background-position: center center;
+	background-size: 250%;
+	background-position: -250px -400px;
+}
+
+.toggle-vg{
+	padding: 1rem;
+	border: solid 2px #fff;
+	cursor: pointer;
+	text-align: center;
+}
+
+.toggle-3d{
+	padding: 1rem;
+	border: solid 2px #fff;
+	cursor: pointer;
+	text-align: center;
+}
+
+.extra{
+	width: 100%;
+	display: flex;
+	padding: 3rem 0;
+	flex-wrap: wrap;
+}
+
+.extra{
+	width: 100%;
+	color: #fff;
+	display: none;
+}
+
+.x-group{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#x-3d{
+	background-color: #FA6767;
+}
+
+#x-vg{
+	background-color: #74B2FB;
+}
+
+.x-info{
+	width: 40%;
+}
+
+.x-info>h2{
+	margin-bottom: .5rem;
+}
+
+.x-info>p{
+	margin-top: .5rem;
+	font-weight: 300;
+}
+
+footer{
+	width: 100%;
+	height: 10vw;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.f-menu{
+	width: 90%;
+}
+
+.f-menu ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.f-menu li{
+	list-style-type: none;
+/*	padding:0 5rem;*/
+}
+
+.f-menu a{
+	text-decoration: none;
+	color: #000;
 }
