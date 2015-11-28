@@ -78,7 +78,7 @@ li#title-text{
 	font-family: "Josefin Sans", sans-serif;
 	font-weight: 300;
 	font-size: 1.75rem;
-	padding: .25rem;
+	padding: .5rem;
 }
 
 #camp-links a:hover{
@@ -153,28 +153,46 @@ li#title-text{
 }
 
 .toggle-vg{
+	width: 30%;
 	padding: 1rem;
 	border: solid 2px #fff;
 	cursor: pointer;
 	text-align: center;
+	font-size: 1rem;
+	transition: font-size .2s ease-in-out;
+}
+
+.toggle-vg:hover{
+	font-size: 1.5rem;
 }
 
 .toggle-3d{
+	width: 30%;
 	padding: 1rem;
 	border: solid 2px #fff;
 	cursor: pointer;
 	text-align: center;
+	font-size: 1rem;
+	transition: font-size .2s ease-in-out;
+}
+
+.toggle-3d:hover{
+	font-size: 1.5rem;
+}
+
+#close-btn{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .extra{
 	width: 100%;
 	display: flex;
-	padding: 3rem 0;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 	flex-wrap: wrap;
-}
-
-.extra{
-	width: 100%;
 	color: #fff;
 	display: none;
 }
@@ -185,6 +203,7 @@ li#title-text{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	padding-bottom: 3rem;
 }
 
 #x-3d{
@@ -207,6 +226,146 @@ li#title-text{
 	margin-top: .5rem;
 	font-weight: 300;
 }
+
+
+/*CURRICULUM*/
+.curriculum{
+	width: 100%;
+	background-color: #fff;
+}
+
+.curriculum>h2{
+	font-weight: 300;
+	font-size: 4rem;
+	padding: 1.5rem 0;
+	margin: 0;
+	color: #FA6767;
+	text-align: center;
+}
+
+.box-cur{
+	width: 100%;
+	height: 25vw;
+	display: flex;
+}
+
+.cur-desc{
+	width: 50%;
+	height: 100%;
+}
+
+.cur-desc-text{
+	width: 100%;
+	height: 50%;
+}
+
+#cur-desc-top{
+	background-color: #E6E6E6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cur-desc-top>ul{
+	width: 60%;
+	color: #000;
+	font-size: 1.25rem;
+}
+
+#cur-desc-btm{
+	background-color: #CCCCCC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cur-desc-btm>ul{
+	width: 60%;
+	color: #000;
+	font-size: 1.25rem;
+}
+
+.cur-img{
+	width: 50%;
+	height: 100%;
+}
+
+#cur-day{
+	padding-top: 1.25rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: #fff;
+	font-size: 4rem;
+	margin: 0;
+}
+
+#vg-cur-title{
+	color: #74B2FB;
+}
+
+
+#tdday1{
+	background-image: url("../imgs/3dcamp/3dday1.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+
+#tdday2{
+	background-image: url("../imgs/3dcamp/3dday2.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#tdday3{
+	background-image: url("../imgs/3dcamp/3dday3.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+#tdday4{
+	background-image: url("../imgs/3dcamp/3dday4.jpg");
+	background-size: 150%;
+	background-position: center center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#tdday5{
+	background-image: url("../imgs/3dcamp/3dday5.jpg");
+	background-size: 150%;
+	background-position: left center;
+}
+
+#tdday6{
+	background-image: url("../imgs/3dcamp/3dday6.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#tdday7{
+	background-image: url("../imgs/3dcamp/3dday7.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+#tdday8{
+	background-image: url("../imgs/3dcamp/3dday8.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+
+
+/*FOOTER*/
 
 footer{
 	width: 100%;
