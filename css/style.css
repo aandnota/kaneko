@@ -304,6 +304,35 @@ li#title-text{
 }
 
 
+#vgday1{
+	background-image: url("../imgs/vgcamp/vgday1.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+
+#vgday2{
+	background-image: url("../imgs/vgcamp/vgday2.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#vgday3{
+	background-image: url("../imgs/vgcamp/vgday3.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+#vgday4{
+	background-image: url("../imgs/vgcamp/vgday4.jpg");
+	background-size: 150%;
+	background-position: center center;
+	display: flex;
+	justify-content: flex-end;
+}
+
 #tdday1{
 	background-image: url("../imgs/3dcamp/3dday1.jpg");
 	background-size: cover;
@@ -321,7 +350,7 @@ li#title-text{
 
 #tdday3{
 	background-image: url("../imgs/3dcamp/3dday3.jpg");
-	background-size: cover;
+	background-size: 200%;
 	background-position: center center;
 }
 
@@ -360,7 +389,6 @@ li#title-text{
 	display: flex;
 	justify-content: flex-end;
 }
-
 
 
 
